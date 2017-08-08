@@ -13,3 +13,6 @@ Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
 2. DHT.h
 3. ESP8266WiFiMulti.h
 4. ESP8266HTTPClient.h
+
+**รูปภาพวงจร**
+![alt วงจร esp8266](https://i.imgur.com/fxFmb0g.jpg)
