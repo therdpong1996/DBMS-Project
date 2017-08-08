@@ -6,13 +6,13 @@ error_reporting(E_ALL);
 	require_once 'Firebase.class.php';
 
 	$_DB['host'] = 'localhost';
-	$_DB['username'] = 'root';
-	$_DB['password'] = 'VLgo8Asi2Q';
-	$_DB['database'] = 'admin_dbms';
+	$_DB['username'] = ''; //username connect database
+	$_DB['password'] = ''; //password connect database
+	$_DB['database'] = ''; //tablename database
 
-	$loop_db = 1000;
+	$loop_db = 1000; //limit save log
 
-	$firebase_url = "https://therdpong-dbms.firebaseio.com";
+	$firebase_url = ""; //url your firebase
 
 	$db = new Database($_DB['host'], $_DB['username'], $_DB['password'], $_DB['database']);
 	$fb = new Firebase($firebase_url);
