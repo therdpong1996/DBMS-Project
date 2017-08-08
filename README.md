@@ -16,10 +16,10 @@ Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
 4. ESP8266HTTPClient.h
 
 **การใช้งาน**
-บรรทัดที่ 9, 10 ของไฟล์ esp8266-source.ino แก้ไขเป็นชื่อและรหัสผ่านของ Wi-Fi
-บรรทัดที่ 19 ของไฟล์ esp8266-source.ino แก้ไขเป็น figger print ของเว็บไซต์ (ในกรณีใช้งาน https)
-บรรทัดที่ 50 ของไฟล์ esp8266-source.ino แก้ไขเป็น url ของเว็บไซต์ที่ใช้งาน
-บรรทัดที่ 52-58 ของไฟล์ esp8266-source.ino เป็นเงื่อนไขโจทย์พิเศษ (ความคิดสร้างสรรค์)
+- บรรทัดที่ 9, 10 ของไฟล์ esp8266-source.ino แก้ไขเป็นชื่อและรหัสผ่านของ Wi-Fi
+- บรรทัดที่ 19 ของไฟล์ esp8266-source.ino แก้ไขเป็น figger print ของเว็บไซต์ (ในกรณีใช้งาน https)
+- บรรทัดที่ 50 ของไฟล์ esp8266-source.ino แก้ไขเป็น url ของเว็บไซต์ที่ใช้งาน
+- บรรทัดที่ 52-58 ของไฟล์ esp8266-source.ino เป็นเงื่อนไขโจทย์พิเศษ (ความคิดสร้างสรรค์)
 
 **รูปภาพวงจร**
 ![alt วงจร esp8266](https://i.imgur.com/fxFmb0g.jpg)
@@ -31,10 +31,10 @@ Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
 3. Firebase
 
 **การใช้งาน**
-บรรทัดที่ 5-8 ของไฟล์ mysqli.class.php แก้ไขเป็นข้อมูล Database ที่ต้องการใช้งาน
-บรรทัดที่ 8-11 ของไฟล์ insert.php แก้ไขเป็นข้อมูล Database ที่ต้องการใช้งาน
-บรรทัดที่ 13 ของไฟล์ insert.php แก้ไขเป็นจำนวนข้อมูลที่ต้องการเก็บ
-บรรทัดที่ 15 ของไฟล์ insert.php แก้ไขเป็นข้อมูล Url ของ Firebase ที่ต้องการใช้งาน
+- บรรทัดที่ 5-8 ของไฟล์ mysqli.class.php แก้ไขเป็นข้อมูล Database ที่ต้องการใช้งาน
+- บรรทัดที่ 8-11 ของไฟล์ insert.php แก้ไขเป็นข้อมูล Database ที่ต้องการใช้งาน
+- บรรทัดที่ 13 ของไฟล์ insert.php แก้ไขเป็นจำนวนข้อมูลที่ต้องการเก็บ
+- บรรทัดที่ 15 ของไฟล์ insert.php แก้ไขเป็นข้อมูล Url ของ Firebase ที่ต้องการใช้งาน
 
 **รูปภาพตัวอย่าง**
 ![alt วงจร esp8266](https://i.imgur.com/B0e8Yy3.png)
