@@ -3,9 +3,9 @@
 	header('Access-Control-Allow-Origin: *');
 
 	$_DB['host'] = 'localhost';
-	$_DB['username'] = 'root';
-	$_DB['password'] = 'VLgo8Asi2Q';
-	$_DB['database'] = 'admin_dbms';
+	$_DB['username'] = ''; //username connect database
+	$_DB['password'] = ''; //password connect database
+	$_DB['database'] = ''; //tablename database
 
 	$conn = mysqli_connect($_DB['host'], $_DB['username'], $_DB['password'], $_DB['database']);
 	mysqli_set_charset($conn,"utf8");
