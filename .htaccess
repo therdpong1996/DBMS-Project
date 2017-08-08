@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule   ^mysql/$  index.php
+RewriteRule   ^firebase/$  firebase.php
+RewriteRule   ^about/$  about.php
