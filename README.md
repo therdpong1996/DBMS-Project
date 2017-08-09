@@ -40,6 +40,7 @@ Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
 ![alt วงจร esp8266](https://i.imgur.com/B0e8Yy3.png)
 
 ## จัดทำโดย
+![alt วงจร esp8266](https://scontent.fbkk13-1.fna.fbcdn.net/v/t31.0-8/20451662_1396691873756129_4573183446176927717_o.jpg?oh=4d9cecb163688c90c7db2aa9da3b29fd&oe=5A370F4F)
 - Jakkrit Lomkeaw 58543206003-6
 - Jay Yodsang 58543206004-4
 - Natdanai Jampasri 58543206012-7
