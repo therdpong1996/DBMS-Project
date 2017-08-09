@@ -1,6 +1,6 @@
 # Temperature Humidity DBMS Project
-Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
-โปรเจ็ควิชา Database ตรวจวัดอุณหภูมิและความชื้นโดยใช้ NodeMCU (ESP-8266) และส่งข้อมูลเข้า Firebase และ MySQL
+- Project Temperature and humidity base on ESP8266, DHT22, firebase, MySQL
+- โปรเจ็ควิชา Database ตรวจวัดอุณหภูมิและความชื้นโดยใช้ NodeMCU (ESP-8266) และส่งข้อมูลเข้า Firebase และ MySQL
 
 ## ESP8266
 **อุปกรณ์**
