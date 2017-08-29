@@ -17,11 +17,21 @@ error_reporting(E_ALL);
 	$db = new Database($_DB['host'], $_DB['username'], $_DB['password'], $_DB['database']);
 	$fb = new Firebase($firebase_url);
 
-	if (!empty($_GET['temp']) and !empty($_GET['humi'])) {
-		$date = date("Y-m-d");
-		$time = date("H:i:s");
-		$data = ['temp'=>$_GET['temp'], 'humi'=>$_GET['humi']];
-		$f_r =  $fb->write("data/".$date."/".$time, $data);
-		$db_r = $db->loopdatabase($loop_db, $data);
+	if ($_GET['action'] == 'normal') {
+		if (!empty($_GET['temp']) and !empty($_GET['humi'])) {
+			$date = date("Y-m-d");
+			$time = date("H:i:s");
+			$data = ['temp'=>$_GET['temp'], 'humi'=>$_GET['humi']];
+			$f_r =  $fb->write("data/".$date."/".$time, $data);
+			$db_r = $db->loopdatabase($_GET['action'], $loop_db, $data);
 
+		}
+	}elseif ($_GET['action'] == 'mistake'){
+		if (!empty($_GET['success']) and !empty($_GET['error'])) {
+			$date = date("Y-m-d");
+			$time = date("H:i:s");
+			$data = ['success'=>$_GET['success'], 'error'=>$_GET['error']];
+			$f_r =  $fb->write("mistake/".$date."/".$time, $data);
+			$db_r = $db->loopdatabase($_GET['action'], $loop_db, $data);
+		}
 	}
